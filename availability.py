@@ -54,6 +54,7 @@ def get_availability(record_id, api_token, cookies):
 # and cannot be retrieved with a simple HTTP request.
 options = Options()
 options.binary_location = os.getenv("LOC_FIREFOX")
+options.set_preference('intl.accept_languages', 'fr-FR,fr')
 driver = webdriver.Firefox(options=options)
 wait = WebDriverWait(driver, 15)
 

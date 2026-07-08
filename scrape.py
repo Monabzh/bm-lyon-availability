@@ -85,7 +85,7 @@ options.set_preference('intl.accept_languages', 'fr-FR,fr')
 options.set_preference("selenium_manager_disabled", True)
 options.add_argument("--headless")  # Run in headless mode (for Github Actions)
 driver = webdriver.Firefox(options=options)
-wait = WebDriverWait(driver, 15)
+wait = WebDriverWait(driver, 30)
 
 # Login
 driver.get("https://catalogue.bm-lyon.fr/account")
@@ -97,7 +97,7 @@ wait.until(EC.url_changes("https://catalogue.bm-lyon.fr/account"))
 
 # Naviguate to the reading list
 driver.get(f"https://catalogue.bm-lyon.fr/my/list/{os.getenv('BM_TBR_ID')}")
-time.sleep(3)
+time.sleep(10)
 
 # Extract book titles and ID
 titles = driver.execute_script("""

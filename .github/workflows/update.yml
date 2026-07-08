@@ -33,6 +33,9 @@ jobs:
             tar -xzf geckodriver-v0.37.0-linux64.tar.gz
             sudo mv geckodriver /usr/local/bin/
 
+      - name: Find Firefox location
+          run: which firefox && firefox --version
+
       - name: Run scraper
         env:
           BM_ID: ${{ secrets.BM_ID }}

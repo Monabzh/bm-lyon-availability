@@ -34,7 +34,7 @@ jobs:
             sudo mv geckodriver /usr/local/bin/
 
       - name: Find Firefox location
-          run: which firefox && firefox --version
+        run: which firefox && firefox --version
 
       - name: Run scraper
         env:

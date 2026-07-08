@@ -1,0 +1,12 @@
+# Account connection details
+BM_ID = YOUR_ID_NUMBER
+BM_PSW = YOUR_PASSWORD
+
+# Basket ID
+# To obtain : go on the list on the website, inspect (F12) then,
+# search in the network tab -> XHR -> fetchBasket -> Request -> "basketId"
+# Or just in the URL of the list (check the readme)
+BM_TBR_ID = THE_ID_OF_YOUR_READING_LIST
+
+# Loc firefox
+LOC_FIREFOX = "where/is/firefox/in/your/pc"

@@ -82,6 +82,7 @@ def get_meta(record_id, api_token, cookies):
 options = Options()
 options.binary_location = os.getenv("LOC_FIREFOX")
 options.set_preference('intl.accept_languages', 'fr-FR,fr')
+options.set_preference("selenium_manager_disabled", True)
 options.add_argument("--headless")  # Run in headless mode (for Github Actions)
 driver = webdriver.Firefox(options=options)
 wait = WebDriverWait(driver, 15)

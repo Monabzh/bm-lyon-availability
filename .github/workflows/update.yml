@@ -36,7 +36,7 @@ jobs:
           BM_ID: ${{ secrets.BM_ID }}
           BM_PSW: ${{ secrets.BM_PSW }}
           BM_TBR_ID: ${{ secrets.BM_TBR_ID }}
-          LOC_FIREFOX: /usr/bin/firefox-esr
+          LOC_FIREFOX: /usr/bin/firefox
         run: python scrape.py
 
       - name: Generate HTML

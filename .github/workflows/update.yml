@@ -22,11 +22,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Install Firefox
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y firefox
-
       - name: Install geckodriver
         run: |
             wget https://github.com/mozilla/geckodriver/releases/download/v0.37.0/geckodriver-v0.37.0-linux64.tar.gz
@@ -41,7 +36,7 @@ jobs:
           BM_ID: ${{ secrets.BM_ID }}
           BM_PSW: ${{ secrets.BM_PSW }}
           BM_TBR_ID: ${{ secrets.BM_TBR_ID }}
-          LOC_FIREFOX: /usr/bin/firefox
+          LOC_FIREFOX: /usr/bin/firefox-esr
         run: python scrape.py
 
       - name: Generate HTML

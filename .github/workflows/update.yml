@@ -1,0 +1,52 @@
+name: Update availability
+
+on:
+  schedule:
+  - cron: '0 8 * * *'  # Run at 8:00 AM every day
+  # https://crontab.cronhub.io/
+
+jobs:
+
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Firefox
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y firefox
+
+      - name: Install geckodriver
+        run: |
+            wget https://github.com/mozilla/geckodriver/releases/download/v0.37.0/geckodriver-v0.37.0-linux64.tar.gz
+            tar -xzf geckodriver-v0.37.0-linux64.tar.gz
+            sudo mv geckodriver /usr/local/bin/
+
+      - name: Run scraper
+        env:
+          BM_ID: ${{ secrets.BM_ID }}
+          BM_PSW: ${{ secrets.BM_PSW }}
+          BM_TBR_ID: ${{ secrets.BM_TBR_ID }}
+          LOC_FIREFOX: /usr/bin/firefox
+        run: python scrape.py
+
+      - name: Generate HTML
+        run: python generate_html.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add index.html
+          git diff --staged --quiet || git commit -m "Update availability"
+          git push

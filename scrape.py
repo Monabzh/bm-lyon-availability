@@ -42,7 +42,9 @@ def get_availability(record_id, api_token, cookies):
             d = child.get("data", {})
             if d.get("stat_desc") == "En rayon":
                 branch = d.get("branch_desc")
-                if branch and branch not in available_branches:
+                if branch=="Part-Dieu" and d.get("subloca_desc")=="Silo moderne" and d.get("category_desc")=="Livre empruntable":
+                    branch = "Part-Dieu (Silo moderne)"
+                if branch not in available_branches:
                     available_branches.append(branch)
     return available_branches
 

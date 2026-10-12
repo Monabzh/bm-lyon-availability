@@ -1,0 +1,611 @@
+[
+  {
+    "title": "Rouge signal ",
+    "author": "Agusti, Laurie",
+    "date": "2025",
+    "id": "0003236072",
+    "available": true,
+    "branches": [
+      "Prêt aux collectivités"
+    ]
+  },
+  {
+    "title": "Shangri-La ",
+    "author": "Bablet, Mathieu",
+    "date": "2016",
+    "id": "0002466247",
+    "available": true,
+    "branches": [
+      "9e arrdt - Duchère"
+    ]
+  },
+  {
+    "title": "Silent Jenny ",
+    "author": "Bablet, Mathieu",
+    "date": "2025",
+    "id": "0003249811",
+    "available": true,
+    "branches": [
+      "9e arrdt - Duchère",
+      "9e arrdt - Vaise"
+    ]
+  },
+  {
+    "title": "Et toi, comment ça va ? ",
+    "author": "Berbérian, Charles",
+    "date": "2026",
+    "id": "0003277066",
+    "available": true,
+    "branches": [
+      "Part-Dieu"
+    ]
+  },
+  {
+    "title": "Salomé ",
+    "author": "Bienassis, Alice",
+    "date": "2026",
+    "id": "0003289979",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "Ressources ",
+    "author": "Bihouix, Philippe",
+    "date": "2024",
+    "id": "0003164861",
+    "available": true,
+    "branches": [
+      "2e arrdt",
+      "8e arrdt - Bachut",
+      "9e arrdt - Duchère"
+    ]
+  },
+  {
+    "title": "Matisse ",
+    "author": "Birmant, Julie",
+    "date": "2026",
+    "id": "0003279688",
+    "available": true,
+    "branches": [
+      "5e arrdt - Point du jour",
+      "8e arrdt - Bachut",
+      "9e arrdt - Vaise"
+    ]
+  },
+  {
+    "title": "Ailefroide ",
+    "author": "Bocquet, Olivier",
+    "date": "2018",
+    "id": "0002626897",
+    "available": true,
+    "branches": [
+      "Prêt aux collectivités",
+      "Part-Dieu (Silo moderne)",
+      "Part-Dieu"
+    ]
+  },
+  {
+    "title": "Karl ",
+    "author": "Bonin, Cyril",
+    "date": "2026",
+    "id": "0003271478",
+    "available": true,
+    "branches": [
+      "1e arrdt",
+      "6e arrdt",
+      "9e arrdt - Vaise"
+    ]
+  },
+  {
+    "title": "La langue des vipères ",
+    "author": "Brocal, Juliette 1995-...",
+    "date": "2026",
+    "id": "0003288273",
+    "available": true,
+    "branches": [
+      "9e arrdt - Vaise"
+    ]
+  },
+  {
+    "title": "Plus loin qu'ailleurs ",
+    "author": "Chabouté",
+    "date": "2025",
+    "id": "0003213858",
+    "available": true,
+    "branches": [
+      "7e arrdt - Gerland",
+      "9e arrdt - Vaise",
+      "Part-Dieu"
+    ]
+  },
+  {
+    "title": "Le paradoxe de l'abondance ",
+    "author": "Clément, Hugo",
+    "date": "2025",
+    "id": "0003245120",
+    "available": true,
+    "branches": [
+      "6e arrdt"
+    ]
+  },
+  {
+    "title": "Le ministère des Affaires complexes ",
+    "author": "Cléo",
+    "date": "2026",
+    "id": "0003284737",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "Flatland ",
+    "author": "Collaterale, Dani",
+    "date": "2025",
+    "id": "0003239435",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "Les irradiés de l'ile longue ",
+    "author": "Collinet-Appéré, Carole",
+    "date": "2026",
+    "id": "0003302254",
+    "available": true,
+    "branches": [
+      "Bibliobus"
+    ]
+  },
+  {
+    "title": "Là où tu vas ",
+    "author": "Davodeau, Etienne",
+    "date": "2025",
+    "id": "0003246879",
+    "available": true,
+    "branches": [
+      "3e arrdt - Lacassagne",
+      "8e arrdt - Bachut"
+    ]
+  },
+  {
+    "title": "Blacksad. 1 ",
+    "author": "Diaz Canales, Juan",
+    "date": "2000",
+    "id": "0000897394",
+    "available": true,
+    "branches": [
+      "1e arrdt",
+      "3e arrdt - Duguesclin",
+      "5e arrdt - Point du jour",
+      "5e arrdt - St Jean",
+      "Bibliobus",
+      "Part-Dieu",
+      "Part-Dieu (Silo moderne)"
+    ]
+  },
+  {
+    "title": "Cauchon... ou L'homme qui tua Jeanne d'Arc ",
+    "author": "Dorison, Xavier",
+    "date": "2026",
+    "id": "0003290559",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "Le château des animaux. 4 ",
+    "author": "Dorison, Xavier",
+    "date": "2025",
+    "id": "0003255010",
+    "available": true,
+    "branches": [
+      "7e arrdt - Gerland",
+      "9e arrdt - Vaise"
+    ]
+  },
+  {
+    "title": "Bascoulard ",
+    "author": "Duchazeau, Frantz",
+    "date": "2026",
+    "id": "0003277065",
+    "available": true,
+    "branches": [
+      "7e arrdt - Gerland",
+      "8e arrdt - Bachut"
+    ]
+  },
+  {
+    "title": "La soif d'aventure ",
+    "author": "Dugast, Stéphane",
+    "date": "2024",
+    "id": "0003130534",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "Love in vain ",
+    "author": "Dupont, Jean-Michel",
+    "date": "2014",
+    "id": "0002285317",
+    "available": true,
+    "branches": [
+      "8e arrdt - Bachut",
+      "Part-Dieu (Silo moderne)"
+    ]
+  },
+  {
+    "title": "Les Moribonds ",
+    "author": "Dupré La Tour, Florence",
+    "date": "2026",
+    "id": "0003265163",
+    "available": true,
+    "branches": [
+      "9e arrdt - Vaise"
+    ]
+  },
+  {
+    "title": "Au coeur de la tempête ",
+    "author": "Eisner, Will",
+    "date": "2009",
+    "id": "0001810317",
+    "available": true,
+    "branches": [
+      "Part-Dieu (Silo moderne)"
+    ]
+  },
+  {
+    "title": "Zaï zaï zaï zaï ",
+    "author": "Fabcaro",
+    "date": "2015",
+    "id": "0002345062",
+    "available": true,
+    "branches": [
+      "6e arrdt",
+      "8e arrdt - Bachut",
+      "9e arrdt - Duchère",
+      "Prêt aux collectivités",
+      "Part-Dieu (Silo moderne)"
+    ]
+  },
+  {
+    "title": "Les yeux d'Alex ",
+    "author": "Fauvel, Claire",
+    "date": "2025",
+    "id": "0003238366",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "Blacksad ",
+    "author": "Guarnido, Juanjo",
+    "date": "2016",
+    "id": "0003265945",
+    "available": true,
+    "branches": [
+      "1e arrdt"
+    ]
+  },
+  {
+    "title": "La horde du contrevent. 1 ",
+    "author": "Henninot, Eric",
+    "date": "2017",
+    "id": "0002584040",
+    "available": true,
+    "branches": [
+      "3e arrdt - Duguesclin",
+      "5e arrdt - St Jean",
+      "6e arrdt",
+      "9e arrdt - Duchère",
+      "9e arrdt - St Rambert",
+      "Prêt aux collectivités"
+    ]
+  },
+  {
+    "title": "Les guerres de Lucas. 2 ",
+    "author": "Hopman, Laurent",
+    "date": "2025",
+    "id": "0003245666",
+    "available": true,
+    "branches": [
+      "6e arrdt",
+      "9e arrdt - Vaise",
+      "Bibliobus"
+    ]
+  },
+  {
+    "title": "Peau d'homme ",
+    "author": "Hubert",
+    "date": "2020",
+    "id": "0002815030",
+    "available": true,
+    "branches": [
+      "3e arrdt - Duguesclin",
+      "4e arrdt - Croix Rousse",
+      "9e arrdt - St Rambert",
+      "Prêt aux collectivités"
+    ]
+  },
+  {
+    "title": "Si nous pouvions rester ensemble pour toujours ",
+    "author": "Kogiku, Erika",
+    "date": "2026",
+    "id": "0003286793",
+    "available": true,
+    "branches": [
+      "5e arrdt - St Jean"
+    ]
+  },
+  {
+    "title": "Le veilleur des brumes. 1 ",
+    "author": "Kondo, Robert",
+    "date": "2018",
+    "id": "0002621834",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "De pierre et d'os ",
+    "author": "Krassinsky",
+    "date": "2025",
+    "id": "0003208677",
+    "available": true,
+    "branches": [
+      "3e arrdt - Lacassagne",
+      "6e arrdt",
+      "7e arrdt - Gerland",
+      "9e arrdt - St Rambert",
+      "Prêt aux collectivités"
+    ]
+  },
+  {
+    "title": "Insectopolis ",
+    "author": "Kuper, Peter",
+    "date": "2026",
+    "id": "0003284519",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "Marly ",
+    "author": "Lantam, Emmanuel",
+    "date": "2026",
+    "id": "0003266929",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "L'aigle sans orteils ",
+    "author": "Lax",
+    "date": "2005",
+    "id": "0001371335",
+    "available": true,
+    "branches": [
+      "Part-Dieu (Silo moderne)"
+    ]
+  },
+  {
+    "title": "Muchacho ",
+    "author": "Lepage, Emmanuel",
+    "date": "2012",
+    "id": "0002127485",
+    "available": true,
+    "branches": [
+      "7e arrdt - Gerland"
+    ]
+  },
+  {
+    "title": "Night eaters. 1 ",
+    "author": "Liu, Marjorie",
+    "date": "2024",
+    "id": "0003158694",
+    "available": true,
+    "branches": [
+      "2e arrdt"
+    ]
+  },
+  {
+    "title": "Le Mètre des Caraïbes ",
+    "author": "Lupano, Wilfrid",
+    "date": "2025",
+    "id": "0003249362",
+    "available": true,
+    "branches": [
+      "9e arrdt - Vaise",
+      "Bibliobus",
+      "Part-Dieu"
+    ]
+  },
+  {
+    "title": "Le bruit du givre ",
+    "author": "Mattotti, Lorenzo",
+    "date": "2003",
+    "id": "0001128489",
+    "available": true,
+    "branches": [
+      "Part-Dieu (Silo moderne)"
+    ]
+  },
+  {
+    "title": "Au-dedans ",
+    "author": "McPhail, Will",
+    "date": "2024",
+    "id": "0003106511",
+    "available": true,
+    "branches": [
+      "2e arrdt",
+      "8e arrdt - Bachut",
+      "9e arrdt - St Rambert",
+      "Ecole des Beaux-Arts (sur rendez-vous)"
+    ]
+  },
+  {
+    "title": "L'art de Nausicaä de la vallée du vent ",
+    "author": "Miyazaki, Hayao",
+    "date": "2007",
+    "id": "0001606654",
+    "available": true,
+    "branches": [
+      "Part-Dieu (Silo moderne)"
+    ]
+  },
+  {
+    "title": "Nausicaä de la vallée du vent. 1 ",
+    "author": "Miyazaki, Hayao",
+    "date": "2000",
+    "id": "0000877562",
+    "available": true,
+    "branches": [
+      "Part-Dieu (Silo moderne)"
+    ]
+  },
+  {
+    "title": "Les pizzlys ",
+    "author": "Moreau, Jérémie",
+    "date": "2022",
+    "id": "0003003429",
+    "available": true,
+    "branches": [
+      "2e arrdt",
+      "3e arrdt - Duguesclin",
+      "5e arrdt - Point du jour",
+      "9e arrdt - Vaise",
+      "Ecole des Beaux-Arts (sur rendez-vous)"
+    ]
+  },
+  {
+    "title": "Whale Star. 1 ",
+    "author": "Na, Yoonhee",
+    "date": "2026",
+    "id": "0003288858",
+    "available": true,
+    "branches": [
+      "9e arrdt - Vaise"
+    ]
+  },
+  {
+    "title": "Des ronds de serviette pour l'Antarctique ",
+    "author": "Padhen",
+    "date": "2026",
+    "id": "0003276372",
+    "available": true,
+    "branches": [
+      "Part-Dieu"
+    ]
+  },
+  {
+    "title": "Portugal ",
+    "author": "Pedrosa, Cyril",
+    "date": "2011",
+    "id": "0002016015",
+    "available": true,
+    "branches": [
+      "5e arrdt - Point du jour",
+      "9e arrdt - Duchère"
+    ]
+  },
+  {
+    "title": "Comme un chef ",
+    "author": "Peeters, Benoît",
+    "date": "2018",
+    "id": "0002607108",
+    "available": true,
+    "branches": [
+      "3e arrdt - Lacassagne"
+    ]
+  },
+  {
+    "title": "Le loup ",
+    "author": "Rochette, Jean-Marc",
+    "date": "2019",
+    "id": "0002731235",
+    "available": true,
+    "branches": [
+      "8e arrdt - Bachut",
+      "9e arrdt - Vaise",
+      "Part-Dieu"
+    ]
+  },
+  {
+    "title": "Saint-Exupéry ",
+    "author": "Saint-Dizier, Pierre-Roland",
+    "date": "2026",
+    "id": "0003285075",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "Frankenstein ",
+    "author": "Sala, David",
+    "date": "2026",
+    "id": "0003288085",
+    "available": true,
+    "branches": [
+      "9e arrdt - Duchère"
+    ]
+  },
+  {
+    "title": "Les abeilles se cachent pour mourir ",
+    "author": "Tamaillon, Stéphane",
+    "date": "2026",
+    "id": "0003292704",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "La cuisine du Tengu. 1 ",
+    "author": "Tanaka, Ai",
+    "date": "2025",
+    "id": "0003206740",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "Blankets ",
+    "author": "Thompson, Craig",
+    "date": "2016",
+    "id": "0002422574",
+    "available": true,
+    "branches": [
+      "Part-Dieu (Silo moderne)"
+    ]
+  },
+  {
+    "title": "Maison Croâ Croâ ",
+    "author": "Tosello, Davide",
+    "date": "2026",
+    "id": "0003301006",
+    "available": true,
+    "branches": [
+      "9e arrdt - Vaise"
+    ]
+  },
+  {
+    "title": "Krimi ",
+    "author": "Vermot, Thibault",
+    "date": "2025",
+    "id": "0003207143",
+    "available": true,
+    "branches": [
+      "2e arrdt",
+      "5e arrdt - Point du jour",
+      "7e arrdt - Gerland",
+      "9e arrdt - St Rambert",
+      "Prêt aux collectivités"
+    ]
+  },
+  {
+    "title": "Tourner la page ",
+    "author": "Zep",
+    "date": "2026",
+    "id": "0003290055",
+    "available": false,
+    "branches": []
+  },
+  {
+    "title": "La France empire ",
+    "author": "",
+    "date": "2026",
+    "id": "0003300829",
+    "available": true,
+    "branches": [
+      "Bibliobus"
+    ]
+  }
+]

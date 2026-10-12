@@ -41,15 +41,15 @@ for book in books:
 all_branches = sorted(all_branches)
 
 for branch in all_branches:
-    html_debut += f"<li><input type=\"checkbox\" class=\"btn-check biblio-check\" checked id=\"btncheck{all_branches.index(branch) + 1}\" autocomplete=\"on\" onChange=\"filterTable()\"><label class=\"btn btn-outline-primary\" for=\"btncheck{all_branches.index(branch) + 1}\">{branch}</label></li>"
+    html_debut += f"<li><input type=\"checkbox\" class=\"btn-check biblio-check\" id=\"btncheck{all_branches.index(branch) + 1}\" autocomplete=\"on\" onChange=\"filterTable()\"><label class=\"btn btn-outline-primary\" for=\"btncheck{all_branches.index(branch) + 1}\">{branch}</label></li>"
 
 html_int = """                </ul>
             </div>
                 <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked onClick="radio()">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" onClick="radio()">
                     <label class="btn btn-outline-primary" for="btnradio1">Toutes les bibli</label>
 
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" onClick="radio()">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" checked onClick="radio()">
                     <label class="btn btn-outline-primary" for="btnradio2">Mes bibli !</label>
                 </div>
             </div>
@@ -61,7 +61,7 @@ html_int = """                </ul>
 
 html_lignes = ""
 for book in books:
-    branches = ", ".join(book["branches"]) if book["branches"] else "—"
+    branches = ", ".join(book["branches"]) if book["branches"] else "-"
     html_lignes += f"<tr><td>{book['title']}</td><td>{book['author']}</td><td>{book['date']}</td><td>{branches}</td></tr>\n"
 
 html_fin ="""
@@ -88,6 +88,7 @@ html_fin ="""
             var rows = document.querySelectorAll('#table tbody tr');
             rows.forEach(function(row) {
                 var librariesCell = row.cells[3].textContent;
+                librariesCell = librariesCell.split(', ');
                 var isVisible = selectedLibraries.some(function(library) {
                     return librariesCell.includes(library);
                 });
@@ -106,8 +107,7 @@ html_fin ="""
                 });
             } else {
                 checkboxes.forEach(function(checkbox) {
-                    var label = checkbox.nextElementSibling.textContent.trim();
-                    checkbox.checked = label === "Part-Dieu" || label === "1e arrdt";
+                    var label = checkbox.nextElementSibling.textContent.trim();                    checkbox.checked = label === "Part-Dieu" || label === "Part-Dieu (Silo moderne)" || label === "1e arrdt";
                 });
             }
             filterTable();
@@ -116,7 +116,7 @@ html_fin ="""
 
     <script>
         bootstrap.Dropdown.Default.popperConfig = { strategy:"fixed" };
-        setTimeout(function() { filterTable(); }, 0);
+        setTimeout(function() { radio(); filterTable(); }, 10);
     </script>
 
   </body>
